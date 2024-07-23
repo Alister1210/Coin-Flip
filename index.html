@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+            <img id="logo" src="logo.png" alt="Logo">
+            <img id="name" src="name.png" alt="Name">
+        </div>
+        <div id="coin">
+            <div id="coin_flip">
+                <div class="head">
+                    <div id="h">
+                        <h1>H</h1>
+                    </div>
+                </div>
+                <div class="tail">
+                    <div id="t">
+                        <h1>T</h1>
+                    </div>
+                </div>
+            </div>
+            <button id="main_btn" onclick="flipCoin()">Flip Coin</button>
+            <p> <span id="status"></span></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+</body>
+</html>
