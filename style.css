@@ -135,6 +135,11 @@ body {
   animation: flipHeads 3s forwards;
 }
 
+#status{
+  font-size: 50px;
+  padding: 17px;
+}
+
 @keyframes flipHeads {
   from {
     transform: rotateY(0deg);
@@ -161,15 +166,28 @@ body {
   padding-top: 10px;
   font-size: 30px;
 }
-
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   #coin_flip .head,
   .tail {
-    height: 200px;
-    width: 200px;
+    margin-top: 50px;
+    height: 220px;
+    width: 220px;
   }
   #coin_flip #h h1,
   #t h1 {
     font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #coin_flip .head,
+  .tail {
+    margin-top: 50px;
+    height: 150px;
+    width: 150px;
+  }
+  #coin_flip #h h1,
+  #t h1 {
+    font-size: 70px;
   }
 }
